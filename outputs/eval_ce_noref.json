@@ -1,0 +1,55 @@
+{
+  "n_problems": 100,
+  "K": 8,
+  "beta": 0.05,
+  "drop_ref": true,
+  "adapter": "outputs/prm_ce",
+  "Ns": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "accuracy_by_N": {
+    "1": {
+      "pass@1": 0.55,
+      "oracle": 0.55,
+      "majority": 0.55,
+      "orm_bon": 0.55,
+      "prm_bon_min": 0.55,
+      "prm_bon_mean": 0.55,
+      "wmaj_orm": 0.55,
+      "wmaj_prm": 0.55
+    },
+    "2": {
+      "pass@1": 0.55,
+      "oracle": 0.71,
+      "majority": 0.55,
+      "orm_bon": 0.58,
+      "prm_bon_min": 0.62,
+      "prm_bon_mean": 0.61,
+      "wmaj_orm": 0.58,
+      "wmaj_prm": 0.62
+    },
+    "4": {
+      "pass@1": 0.55,
+      "oracle": 0.81,
+      "majority": 0.66,
+      "orm_bon": 0.6,
+      "prm_bon_min": 0.63,
+      "prm_bon_mean": 0.63,
+      "wmaj_orm": 0.61,
+      "wmaj_prm": 0.64
+    },
+    "8": {
+      "pass@1": 0.55,
+      "oracle": 0.87,
+      "majority": 0.76,
+      "orm_bon": 0.62,
+      "prm_bon_min": 0.68,
+      "prm_bon_mean": 0.65,
+      "wmaj_orm": 0.71,
+      "wmaj_prm": 0.76
+    }
+  }
+}

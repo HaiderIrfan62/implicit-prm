@@ -1,0 +1,14 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "data": "data/train_1pp.jsonl",
+  "out": "outputs/prm_ce_1pp",
+  "beta": 0.05,
+  "epochs": 1,
+  "lr": 0.0001,
+  "grad_accum": 8,
+  "max_len": 1024,
+  "dtype": "float32",
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "limit": 0
+}

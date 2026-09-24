@@ -1,0 +1,55 @@
+{
+  "n_problems": 98,
+  "K": 8,
+  "beta": 0.05,
+  "drop_ref": true,
+  "adapter": "outputs/prm_math_ce",
+  "Ns": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "accuracy_by_N": {
+    "1": {
+      "pass@1": 0.3776,
+      "oracle": 0.3776,
+      "majority": 0.3776,
+      "orm_bon": 0.3776,
+      "prm_bon_min": 0.3776,
+      "prm_bon_mean": 0.3776,
+      "wmaj_orm": 0.3776,
+      "wmaj_prm": 0.3776
+    },
+    "2": {
+      "pass@1": 0.3776,
+      "oracle": 0.5102,
+      "majority": 0.3776,
+      "orm_bon": 0.4082,
+      "prm_bon_min": 0.4286,
+      "prm_bon_mean": 0.4286,
+      "wmaj_orm": 0.4082,
+      "wmaj_prm": 0.4286
+    },
+    "4": {
+      "pass@1": 0.3776,
+      "oracle": 0.6327,
+      "majority": 0.4592,
+      "orm_bon": 0.4694,
+      "prm_bon_min": 0.3776,
+      "prm_bon_mean": 0.398,
+      "wmaj_orm": 0.4796,
+      "wmaj_prm": 0.4082
+    },
+    "8": {
+      "pass@1": 0.3776,
+      "oracle": 0.6837,
+      "majority": 0.5204,
+      "orm_bon": 0.4694,
+      "prm_bon_min": 0.4286,
+      "prm_bon_mean": 0.4796,
+      "wmaj_orm": 0.5408,
+      "wmaj_prm": 0.5306
+    }
+  }
+}

@@ -1,0 +1,11 @@
+# Core ML stack — pinned loosely; torch already present on system (2.12, MPS)
+torch>=2.4
+transformers>=4.44
+peft>=0.12
+datasets>=2.20
+accelerate>=0.33
+trl>=0.9
+numpy
+tqdm
+pandas
+matplotlib
